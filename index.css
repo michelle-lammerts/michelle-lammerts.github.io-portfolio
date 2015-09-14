@@ -7,6 +7,7 @@
 body {
   background-color: white;
 }
+
 .wrapper {
   background: #ddd;
 }
@@ -28,6 +29,7 @@ body {
   margin-top: 2%;
   margin-bottom: 2.8%;
   margin-right: 2%;
+  text-decoration: none;
 }
 
 .social:hover {
@@ -45,6 +47,11 @@ img {
 .page {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 .banner {
@@ -88,22 +95,16 @@ img {
 }
 
 .navigation-item:hover {
-    opacity: 0.5;
-    text-decoration: underline;
-}
-
-.block {
-  width: 250px;
-  height: 250px;
-  display: inline-block;
-  position: relative;
-  margin-right: 3.8893226%;
-  margin-top: 4%;
-  left: 20%;
+  opacity: 0.5;
+  text-decoration: underline;
 }
 
 .thumbnail {
+  width: 30%;
+  display: inline-block;
   position: relative;
+  margin-right: 3%;
+  margin-top: 3%;
 }
 
 .thumbnail-title {
@@ -129,31 +130,22 @@ img {
   opacity: 0.5;
 }
 
-.block2 {
-  width: 250px;
-  height: 250px;
-  display: inline-block;
-  position: relative;
-  margin-right: 3.8893226%;
-  left: 20%;
-  margin-top: 5%;
-}
-
-/* typography */
-
-.typo {
-  text-align: center;
-  color: #B3B3B3;
-  font-size: 35px;
+.images-typo {
+  margin-left: 15%;
+  width: 50%;
+  height: auto;
+  padding: left 10px;
+  padding-right: 10px;
+  padding-top: 10px;
   font-family: 'lato',sans-serif;
-  line-height: 1;
-  font-weight: 300;
-  margin: 0;
+  font-weight: 200;
+  float: left;
 }
- .block1 {
-   width: 500px;
-   height: 800px;
-   position: relative;
-   float: inherit;
-   left: 20%;
- }
+
+.thumbnail {
+  transition: opacity 200ms ease;
+}
+
+.images-typo:hover .thumbnail {
+  opacity: 0.7;
+}
