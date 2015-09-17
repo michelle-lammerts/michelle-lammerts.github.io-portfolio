@@ -1,0 +1,9 @@
+.grid {
+  @include outer-container(900px);
+}
+
+.grid-cell {
+  @include span-columns(4);
+  @include omega(3n);
+  margin-bottom: 2.35765%;
+}
