@@ -6,7 +6,6 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bourbon/bourbon";
 @import "neat/neat";
-@import "banner";
 @import "base";
 @import "grid";
 @import "navigation";
@@ -15,3 +14,4 @@
 @import "social";
 @import "thumbnail";
 @import "titles";
+@import "header";

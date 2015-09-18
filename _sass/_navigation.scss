@@ -1,16 +1,19 @@
 .navigation {
-  text-align: right;
-  padding-top: 20px;
-  padding-right: 0%;
+margin-left: auto;
 }
 
 .navigation-item {
   font-family: 'lato',sans-serif;
   font-weight: 300;
-  font-size: 23px;
+  font-size: 17px;
   margin-left: 25px;
   text-decoration: none;
   color: #B3B3B3;
+}
+
+.navigation-item.active {
+  opacity: 0.6;
+  text-decoration: underline;
 }
 
 .navigation-item:hover {

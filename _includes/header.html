@@ -1,10 +1,22 @@
+<header class="header">
+  <h1 class="title">Michelle Lammerts</h1>
   <nav class="navigation">
-    <a class="navigation-item" href="index.html">home</a> <a class=
-    "navigation-item" href="about.html">about</a> <a class="navigation-item"
-    href="exhibitions.html">exhibitions</a> <a class="navigation-item" href=
-    "contact.html">contact</a>
+    {% if page.url == '/index.html' %}
+      <a href="/index.html" class="navigation-item active">HOME</a>
+    {% else %}
+      <a href="/index.html" class="navigation-item">HOME</a>
+    {% endif %}
+
+    {% if page.url == '/about.html' %}
+      <a href="/about.html" class="navigation-item active">ABOUT</a>
+    {% else %}
+      <a href="/about.html" class="navigation-item">ABOUT</a>
+    {% endif %}
+
+    {% if page.url == '/contact.html' %}
+      <a href="/contact.html" class="navigation-item active">CONTACT</a>
+    {% else %}
+      <a href="/contact.html" class="navigation-item">CONTACT</a>
+    {% endif %}
   </nav>
-  <div class="banner">
-    <h1 class="title">Michelle Lammerts</h1>
-    <h2 class="subtitle">Graphic Designer</h2>
-  </div>
+</header>
