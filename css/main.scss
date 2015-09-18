@@ -3,11 +3,9 @@
 ---
 @charset "utf-8";
 
-// Dependencies
-@import 'bourbon';
-@import 'neat';
-
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "bourbon/bourbon";
+@import "neat/neat";
 @import "banner";
 @import "base";
 @import "grid";
