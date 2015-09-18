@@ -8,14 +8,12 @@
 @import 'neat';
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-  "banner",
-  "base",
-  "grid",
-  "navigation",
-  "page",
-  "pictures",
-  "social",
-  "thumbnail",
-  "titles"
-;
+@import "banner";
+@import "base";
+@import "grid";
+@import "navigation";
+@import "page";
+@import "pictures";
+@import "social";
+@import "thumbnail";
+@import "titles";
