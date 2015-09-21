@@ -3,15 +3,22 @@
 ---
 @charset "utf-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Vendor libraries
 @import "bourbon/bourbon";
 @import "neat/neat";
+
+// Base
+@import "variables";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
 @import "base";
 @import "grid";
+@import "header";
 @import "navigation";
 @import "page";
 @import "pictures";
+@import "slick";
 @import "social";
 @import "thumbnail";
 @import "titles";
-@import "header";
+@import "fancybox";
