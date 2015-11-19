@@ -1,15 +1,11 @@
 .grid {
-  @include outer-container(900px);
+  @include outer-container(1200px);
   margin-bottom: 1.5%;
+  display: block;
+  padding-top: 20px;
 }
 
 .grid-cell {
-  @include span-columns(4);
-  @include omega(3n);
-  margin-bottom: 2.35765%;
-  padding-left:0px;
-  padding-right:0px;
-  margin-left: 7.5px;
-  margin-right: 7.5px;
-  margin-top: 70px;
+  @include span-columns(3);
+  @include omega(4n);
 }

@@ -1,18 +1,32 @@
 
+.frontimg {
+  padding-top: 30px;
+  display: block;
+  margin: 0 auto;
+  width:1100px;
+}
 .subtitle {
-  font-family: 'lato',sans-serif;
+  font-family:'Helvetica neue',sans-serif;
   font-weight: 300;
   font-size: 16px;
   text-decoration: none;
   text-align: center;
   color: #575C5E;
 }
-
 .pictures {
   transition: opacity 200ms ease;
   margin: auto;
 }
-
 .pictures:hover {
   opacity: 0.7;
+}
+.logomore {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  padding-top:50px;
+  padding-bottom: 10px;
+}
+.logomore:hover {
+  opacity: 0.8;
 }

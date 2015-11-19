@@ -12,8 +12,12 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base";
+@import "card";
+@import "fancybox";
 @import "grid";
 @import "header";
+@import "hide";
+@import "lines";
 @import "navigation";
 @import "page";
 @import "pictures";
@@ -21,4 +25,3 @@
 @import "social";
 @import "thumbnail";
 @import "titles";
-@import "fancybox";
