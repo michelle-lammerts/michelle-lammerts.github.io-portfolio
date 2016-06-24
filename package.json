@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "env JEKYLL_ENV=production jekyll build && node deploy.js",
+    "develop": "env JEKYLL_ENV=development jekyll serve"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.11.0"
+  }
+}
